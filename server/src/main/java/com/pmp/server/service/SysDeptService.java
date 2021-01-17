@@ -1,7 +1,7 @@
-package com.debug.pmp.server.service;
+package com.pmp.server.service;
 
 import com.baomidou.mybatisplus.extension.service.IService;
-import com.debug.pmp.model.entity.SysDeptEntity;
+import com.pmp.model.entity.SysDeptEntity;
 
 import java.util.List;
 import java.util.Map;

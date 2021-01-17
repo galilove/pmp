@@ -1,12 +1,8 @@
-package com.debug.pmp.common.utils;/**
+package com.pmp.common.utils;/**
  * Created by Administrator on 2019/8/1.
  */
 
 import org.springframework.validation.BindingResult;
-import org.springframework.validation.ObjectError;
-
-import java.util.List;
-import java.util.function.Consumer;
 
 /**
  * 请求参数统一校验工具

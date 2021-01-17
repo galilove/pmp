@@ -1,4 +1,4 @@
-package com.debug.pmp.model.entity;
+package com.pmp.model.entity;
 
 import com.baomidou.mybatisplus.annotation.TableId;
 import com.baomidou.mybatisplus.annotation.TableName;

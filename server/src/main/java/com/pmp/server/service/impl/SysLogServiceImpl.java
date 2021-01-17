@@ -5,11 +5,11 @@ package com.pmp.server.service.impl;/**
 import com.baomidou.mybatisplus.core.conditions.query.QueryWrapper;
 import com.baomidou.mybatisplus.core.metadata.IPage;
 import com.baomidou.mybatisplus.extension.service.impl.ServiceImpl;
-import com.debug.pmp.common.utils.PageUtil;
-import com.debug.pmp.common.utils.QueryUtil;
-import com.debug.pmp.model.entity.SysLogEntity;
-import com.debug.pmp.model.mapper.SysLogDao;
-import com.debug.pmp.server.service.SysLogService;
+import com.pmp.common.utils.PageUtil;
+import com.pmp.common.utils.QueryUtil;
+import com.pmp.model.entity.SysLogEntity;
+import com.pmp.model.mapper.SysLogDao;
+import com.pmp.server.service.SysLogService;
 import org.apache.commons.lang.StringUtils;
 import org.springframework.stereotype.Service;
 

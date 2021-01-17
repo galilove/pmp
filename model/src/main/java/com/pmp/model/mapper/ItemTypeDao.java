@@ -1,7 +1,7 @@
-package com.debug.pmp.model.mapper;
+package com.pmp.model.mapper;
 
 import com.baomidou.mybatisplus.core.mapper.BaseMapper;
-import com.debug.pmp.model.entity.ItemTypeEntity;
+import com.pmp.model.entity.ItemTypeEntity;
 import org.apache.ibatis.annotations.Mapper;
 
 /**

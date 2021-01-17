@@ -1,17 +1,15 @@
-package com.pmp.server.service.impl;/**
- * Created by Administrator on 2019/8/3.
- */
+package com.pmp.server.service.impl;
 
 import com.baomidou.mybatisplus.core.conditions.query.QueryWrapper;
 import com.baomidou.mybatisplus.extension.service.impl.ServiceImpl;
-import com.debug.pmp.common.utils.Constant;
-import com.debug.pmp.model.entity.SysMenuEntity;
-import com.debug.pmp.model.entity.SysRoleMenuEntity;
-import com.debug.pmp.model.entity.SysUserEntity;
-import com.debug.pmp.model.mapper.SysMenuDao;
-import com.debug.pmp.model.mapper.SysUserDao;
-import com.debug.pmp.server.service.SysMenuService;
-import com.debug.pmp.server.service.SysRoleMenuService;
+import com.pmp.common.utils.Constant;
+import com.pmp.model.entity.SysMenuEntity;
+import com.pmp.model.entity.SysRoleMenuEntity;
+import com.pmp.model.entity.SysUserEntity;
+import com.pmp.model.mapper.SysMenuDao;
+import com.pmp.model.mapper.SysUserDao;
+import com.pmp.server.service.SysMenuService;
+import com.pmp.server.service.SysRoleMenuService;
 import com.google.common.collect.Lists;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
@@ -22,8 +20,8 @@ import org.springframework.transaction.annotation.Transactional;
 import java.util.List;
 
 /**
- * @Author:debug (SteadyJack)
- * @Date: 2019/8/3 11:16
+ * @Author:gali
+ *
  **/
 @Service
 public class SysMenuServiceImpl extends ServiceImpl<SysMenuDao,SysMenuEntity> implements SysMenuService{

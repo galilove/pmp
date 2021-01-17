@@ -4,9 +4,9 @@ package com.pmp.server.service.impl;/**
 
 import com.baomidou.mybatisplus.core.conditions.query.QueryWrapper;
 import com.baomidou.mybatisplus.extension.service.impl.ServiceImpl;
-import com.debug.pmp.model.entity.SysUserPostEntity;
-import com.debug.pmp.model.mapper.SysUserPostDao;
-import com.debug.pmp.server.service.SysUserPostService;
+import com.pmp.model.entity.SysUserPostEntity;
+import com.pmp.model.mapper.SysUserPostDao;
+import com.pmp.server.service.SysUserPostService;
 import com.google.common.base.Joiner;
 import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Transactional;

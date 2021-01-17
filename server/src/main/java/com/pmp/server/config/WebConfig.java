@@ -1,4 +1,4 @@
-package com.debug.pmp.server.config;/**
+package com.pmp.server.config;/**
  * Created by Administrator on 2019/7/30.
  */
 
@@ -7,9 +7,9 @@ import org.springframework.web.servlet.config.annotation.ResourceHandlerRegistry
 import org.springframework.web.servlet.config.annotation.WebMvcConfigurer;
 
 /**
- * web应用访问静态资源等的配置
- * @Author:debug (SteadyJack)
- * @Date: 2019/7/30 12:18
+ * @Author gali
+ * @Description //静态资源配置类
+ * @Date 14:20 2021/1/16
  **/
 @Configuration
 public class WebConfig implements WebMvcConfigurer{

@@ -1,9 +1,6 @@
-package com.debug.pmp.server.config;
-/**
- * Created by Administrator on 2019/7/30.
- */
+package com.pmp.server.config;
 
-import com.debug.pmp.server.shiro.UserRealm;
+import com.pmp.server.shiro.UserRealm;
 import org.apache.shiro.mgt.SecurityManager;
 import org.apache.shiro.spring.LifecycleBeanPostProcessor;
 import org.apache.shiro.spring.security.interceptor.AuthorizationAttributeSourceAdvisor;
@@ -16,14 +13,17 @@ import java.util.LinkedHashMap;
 import java.util.Map;
 
 /**
- * shiro的通用化配置
- * @Author:debug (SteadyJack)
- * @Date: 2019/7/30 14:42
+ * @Author gali
+ * @Description //shiro的通用化配置
+ * @Date 18:55 2021/1/16
  **/
 @Configuration
 public class ShiroConfig {
 
-    //安全器管理-管理所有的subject
+    /**
+     * @Author gali
+     * @Description //安全器管理-管理所有的subject
+     **/
     @Bean
     public SecurityManager securityManager(UserRealm userRealm){
         DefaultWebSecurityManager securityManager=new DefaultWebSecurityManager();
@@ -32,7 +32,11 @@ public class ShiroConfig {
         return securityManager;
     }
 
-    //过滤链配置
+
+    /**
+     * @Author gali
+     * @Description //过滤链配置
+     **/
     @Bean("shiroFilter")
     public ShiroFilterFactoryBean shiroFilter(SecurityManager securityManager){
         ShiroFilterFactoryBean shiroFilter=new ShiroFilterFactoryBean();
@@ -63,7 +67,10 @@ public class ShiroConfig {
     }
 
 
-    //关于Shiro的Bean生命周期的管理
+    /**
+     * @Author gali
+     * @Description 关于Shiro的Bean生命周期的管理
+     **/
     @Bean("lifecycleBeanPostProcessor")
     public LifecycleBeanPostProcessor lifecycleBeanPostProcessor(){
         return new LifecycleBeanPostProcessor();

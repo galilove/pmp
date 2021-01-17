@@ -1,8 +1,8 @@
-package com.debug.pmp.server.service;
+package com.pmp.server.service;
 
 import com.baomidou.mybatisplus.extension.service.IService;
-import com.debug.pmp.common.utils.PageUtil;
-import com.debug.pmp.model.entity.AttendRecordEntity;
+import com.pmp.common.utils.PageUtil;
+import com.pmp.model.entity.AttendRecordEntity;
 
 import java.util.List;
 import java.util.Map;

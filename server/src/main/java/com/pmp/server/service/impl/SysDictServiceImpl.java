@@ -3,11 +3,11 @@ package com.pmp.server.service.impl;
 import com.baomidou.mybatisplus.core.conditions.query.QueryWrapper;
 import com.baomidou.mybatisplus.core.metadata.IPage;
 import com.baomidou.mybatisplus.extension.service.impl.ServiceImpl;
-import com.debug.pmp.common.utils.PageUtil;
-import com.debug.pmp.common.utils.QueryUtil;
-import com.debug.pmp.model.entity.SysDictEntity;
-import com.debug.pmp.model.mapper.SysDictDao;
-import com.debug.pmp.server.service.SysDictService;
+import com.pmp.common.utils.PageUtil;
+import com.pmp.common.utils.QueryUtil;
+import com.pmp.model.entity.SysDictEntity;
+import com.pmp.model.mapper.SysDictDao;
+import com.pmp.server.service.SysDictService;
 import org.apache.commons.lang.StringUtils;
 import org.springframework.stereotype.Service;
 

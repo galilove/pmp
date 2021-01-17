@@ -1,4 +1,4 @@
-package com.debug.pmp.common.utils;
+package com.pmp.common.utils;
 
 import org.springframework.web.context.request.RequestContextHolder;
 import org.springframework.web.context.request.ServletRequestAttributes;

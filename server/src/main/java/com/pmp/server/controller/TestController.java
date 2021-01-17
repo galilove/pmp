@@ -1,4 +1,4 @@
-package com.pms.server.controller;
+package com.pmp.server.controller;
 
 import com.pmp.common.response.BaseResponse;
 import com.pmp.common.response.StatusCode;

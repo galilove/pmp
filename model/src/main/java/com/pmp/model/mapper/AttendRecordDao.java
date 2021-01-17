@@ -1,9 +1,9 @@
-package com.debug.pmp.model.mapper;
+package com.pmp.model.mapper;
 
 import com.baomidou.mybatisplus.core.mapper.BaseMapper;
 import com.baomidou.mybatisplus.core.metadata.IPage;
 import com.baomidou.mybatisplus.extension.plugins.pagination.Page;
-import com.debug.pmp.model.entity.AttendRecordEntity;
+import com.pmp.model.entity.AttendRecordEntity;
 import org.apache.ibatis.annotations.Mapper;
 import org.apache.ibatis.annotations.Param;
 
@@ -11,7 +11,7 @@ import java.util.List;
 import java.util.Map;
 
 /**
- * Created by Administrator on 2019/7/23.
+ * Created by gali
  */
 @Mapper
 public interface AttendRecordDao extends BaseMapper<AttendRecordEntity>{

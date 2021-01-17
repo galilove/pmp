@@ -1,11 +1,10 @@
-package com.debug.pmp.common.response;/**
- * Created by Administrator on 2019/7/29.
- */
+package com.pmp.common.response;/**
+
 
 /**
  * 通用的响应封装类
- * @Author:debug (SteadyJack)
- * @Date: 2019/7/29 14:33
+ * @author:gali (SteadyJack)
+ * @Date: 2021/01/16 14:33
  **/
 public class BaseResponse<T> {
 

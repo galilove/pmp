@@ -3,10 +3,10 @@ package com.pmp.server.service.impl;/**
  */
 
 import com.baomidou.mybatisplus.extension.service.impl.ServiceImpl;
-import com.debug.pmp.common.utils.CommonUtil;
-import com.debug.pmp.model.entity.SysRoleMenuEntity;
-import com.debug.pmp.model.mapper.SysRoleMenuDao;
-import com.debug.pmp.server.service.SysRoleMenuService;
+import com.pmp.common.utils.CommonUtil;
+import com.pmp.model.entity.SysRoleMenuEntity;
+import com.pmp.model.mapper.SysRoleMenuDao;
+import com.pmp.server.service.SysRoleMenuService;
 import com.google.common.base.Joiner;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;

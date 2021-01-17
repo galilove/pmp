@@ -1,4 +1,4 @@
-package com.debug.pmp.common.filter;
+package com.pmp.common.filter;
 
 import org.apache.commons.io.IOUtils;
 import org.apache.commons.lang.StringUtils;
@@ -23,7 +23,7 @@ public class XssHttpServletRequestWrapper extends HttpServletRequestWrapper {
     /**
      * html过滤
      */
-    private final static HTMLFilter htmlFilter = new HTMLFilter();
+    private final static com.pmp.common.filter.HTMLFilter htmlFilter = new com.pmp.common.filter.HTMLFilter();
 
     public XssHttpServletRequestWrapper(HttpServletRequest request) {
         super(request);

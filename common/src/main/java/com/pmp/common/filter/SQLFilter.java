@@ -1,6 +1,6 @@
-package com.debug.pmp.common.filter;
+package com.pmp.common.filter;
 
-import com.debug.pmp.common.exception.CommonException;
+import com.pmp.common.exception.CommonException;
 import org.apache.commons.lang.StringUtils;
 
 //SQL过滤

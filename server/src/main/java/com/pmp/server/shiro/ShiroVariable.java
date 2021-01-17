@@ -1,4 +1,4 @@
-package com.debug.pmp.server.shiro;/**
+package com.pmp.server.shiro;/**
  * Created by Administrator on 2019/8/4.
  */
 
@@ -7,9 +7,9 @@ import org.apache.shiro.subject.Subject;
 import org.springframework.stereotype.Component;
 
 /**
- * 推送给前端使用的shiro对象变量
- * @Author:debug (SteadyJack)
- * @Date: 2019/8/4 22:29
+ * @Author gali
+ * @Description //推送给前端使用的shiro对象变量
+ * @Date 19:06 2021/1/16
  **/
 @Component
 public class ShiroVariable {

@@ -3,12 +3,12 @@ package com.pmp.server.service.impl;/**
  */
 
 import com.baomidou.mybatisplus.extension.service.impl.ServiceImpl;
-import com.debug.pmp.common.utils.Constant;
-import com.debug.pmp.model.entity.SysDeptEntity;
-import com.debug.pmp.model.mapper.SysDeptDao;
-import com.debug.pmp.server.service.CommonDataService;
-import com.debug.pmp.server.service.SysDeptService;
-import com.debug.pmp.server.shiro.ShiroUtil;
+import com.pmp.common.utils.Constant;
+import com.pmp.model.entity.SysDeptEntity;
+import com.pmp.model.mapper.SysDeptDao;
+import com.pmp.server.service.CommonDataService;
+import com.pmp.server.service.SysDeptService;
+import com.pmp.server.shiro.ShiroUtil;
 import com.google.common.collect.Lists;
 import org.apache.commons.lang.StringUtils;
 import org.slf4j.Logger;

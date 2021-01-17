@@ -1,4 +1,4 @@
-package com.debug.pmp.common.response;
+package com.pmp.common.response;
 
 /**
  * 通用的响应状态码enum

@@ -2,14 +2,14 @@ package com.pmp.server.service.impl;/**
  * Created by Administrator on 2019/8/5.
  */
 
-import com.debug.pmp.common.utils.CommonUtil;
-import com.debug.pmp.common.utils.Constant;
-import com.debug.pmp.model.entity.SysUserEntity;
-import com.debug.pmp.model.mapper.SysDeptDao;
-import com.debug.pmp.model.mapper.SysUserDao;
-import com.debug.pmp.server.service.CommonDataService;
-import com.debug.pmp.server.service.SysDeptService;
-import com.debug.pmp.server.shiro.ShiroUtil;
+import com.pmp.common.utils.CommonUtil;
+import com.pmp.common.utils.Constant;
+import com.pmp.model.entity.SysUserEntity;
+import com.pmp.model.mapper.SysDeptDao;
+import com.pmp.model.mapper.SysUserDao;
+import com.pmp.server.service.CommonDataService;
+import com.pmp.server.service.SysDeptService;
+import com.pmp.server.shiro.ShiroUtil;
 import com.google.common.base.Joiner;
 import com.google.common.collect.Sets;
 import org.slf4j.Logger;

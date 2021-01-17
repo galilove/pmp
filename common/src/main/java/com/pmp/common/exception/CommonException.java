@@ -1,4 +1,4 @@
-package com.debug.pmp.common.exception;
+package com.pmp.common.exception;
 
 //自定义异常
 public class CommonException extends RuntimeException {
